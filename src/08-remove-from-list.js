@@ -13,13 +13,13 @@
  * Singly - linked lists are already defined with this interface
  */
 
-function ListNode(x) {
-  this.value = x;
-  this.next = null;
-}
+// function ListNode(x) {
+//   this.value = x;
+//   this.next = null;
+// }
 
 function removeKFromList(l, k) {
-  // throw new Error('Not implemented');
+  throw new Error('Not implemented');
   // return l.filter((e) => e !== k);
   const arr = [];
   for (let i = 0; i < l.length; i++) if (l[i] !== k) arr.push(l[i]);
